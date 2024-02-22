@@ -38,7 +38,7 @@ const Nav = () => {
             <button type="button" onClick={signOut} className="outline_btn">
               Sign Out
             </button>
-            <Link href="/create-prompt" className="black_btn">
+            <Link href="/profile" className="black_btn">
               <Image
                 src={session?.user?.image}
                 width={37}
